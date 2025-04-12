@@ -1,8 +1,6 @@
 ## [Download Here from Google Drive (.exe)](https://drive.google.com/file/d/1daqhMdH8icWZ7V7IhI1cZvARc_lyhK1p/view?usp=sharing)
 
-# FLAC-Album Metadata Editor
-
-### FLAC Album Metadata Editor
+# FLAC-A MetaEditor
 
 A lightweight and efficient desktop tool for bulk editing metadata in FLAC audio files. Designed with a simple and functional interface, it allows you to manage tags such as title, artist, album, year, and more—all from an intuitive graphical environment.
 
