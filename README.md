@@ -66,10 +66,7 @@ A lightweight and efficient desktop tool for bulk editing metadata in FLAC audio
 **FLAC-A_MetaEditor** uses the following open-source technologies:
 
 - **[mutagen](https://mutagen.readthedocs.io/en/latest/)** – Library for reading and writing audio file metadata. (GPL License)
-- **[Tkinter](https://wiki.python.org/moin/TkInter)** – Standard GUI library for Python.
-- **[PyInstaller](https://www.pyinstaller.org/)** – Python application bundler. (GPLv2 or later)
-- **[Inno Setup](http://www.jrsoftware.org/isinfo.php)** – Installer creator. (Inno Setup License)
-
+- 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE.md) file for more details.
 
 ---
