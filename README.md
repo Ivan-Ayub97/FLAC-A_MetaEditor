@@ -4,7 +4,7 @@
 
 ### FLAC Metadata Batch Editor
 
-**FLAC-A_MetaEditor** es una herramienta de escritorio ligera y eficiente para editar metadatos de archivos de audio FLAC de manera masiva. Diseñada con una interfaz simple y funcional, permite gestionar etiquetas como título, artista, álbum, año y más, todo desde un entorno gráfico intuitivo.
+**FLAC-A_MetaEditor** is a lightweight and efficient desktop tool for bulk editing metadata in FLAC audio files. Designed with a simple and functional interface, it allows you to manage tags such as title, artist, album, year, and more—all from an intuitive graphical environment.
 
 ![FLAC-A_MetaEditor logo](icon.png)
 
@@ -16,80 +16,76 @@
 
 ---
 
-## 🌟 Funciones Principales
+## 🌟 Key Features
 
-- **Edición Masiva de Metadatos:**
-  Modifica etiquetas ID3 de múltiples archivos FLAC simultáneamente.
+- **Batch Metadata Editing:**
+  Modify ID3 tags of multiple FLAC files simultaneously.
 
-- **Interfaz Intuitiva:**
-  Accesible para todo tipo de usuarios, sin necesidad de conocimientos técnicos avanzados.
+- **Intuitive Interface:**
+  Accessible for all types of users—no advanced technical knowledge required.
 
-- **Visualización Clara de Datos:**
-  Muestra los metadatos actuales de cada archivo para facilitar su edición y comparación.
+- **Clear Data Display:**
+  Shows current metadata of each file for easier editing and comparison.
 
-- **Soporte de Campos Comunes:**
-  Título, Artista, Álbum, Año, Género, Comentarios y más.
+- **Common Field Support:**
+  Title, Artist, Album, Year, Genre, Comments, and more.
 
-- **Ligero y Rápido:**
-  Optimizado para ofrecer una experiencia fluida incluso con bibliotecas grandes de audio.
+- **Lightweight and Fast:**
+  Optimized to offer a smooth experience, even with large audio libraries.
 
-- **Código Abierto:**
-  Disponible bajo licencia **MIT**, permitiendo su libre modificación y redistribución.
-
----
-
-## 🛠️ Cómo Usar
-
-1. **Abre la aplicación**: Ejecuta FLAC-A_MetaEditor.exe como administrador para evitar restricciones de escritura.
-2. **Selecciona los archivos**: Carga uno o varios archivos FLAC desde tu equipo.
-3. **Edita los metadatos**:
-   - Modifica campos como título, artista, álbum, año, etc.
-   - Aplica los cambios de forma individual o a todos los archivos seleccionados.
-4. **Guarda los cambios**: Al finalizar, FLAC-A_MetaEditor sobrescribirá los metadatos con la nueva información ingresada.
+- **Open Source:**
+  Available under the **MIT License**, allowing free modification and redistribution.
 
 ---
 
-## 🎵 Formatos Soportados
+## 🛠️ How to Use
 
-- Solo se admiten archivos con extensión `.flac`.
-
----
-
-## 📊 Requisitos del Sistema
-
-- **Sistema Operativo**: Windows 10 o superior.
-- **RAM**: Mínimo 2GB.
-- **Almacenamiento**: Espacio disponible suficiente para manejar los archivos FLAC seleccionados.
+1. **Open the Application**: Run `FLAC-A_MetaEditor.exe` as administrator to avoid write restrictions.
+2. **Select Files**: Load one or more FLAC files from your device.
+3. **Edit Metadata**:
+   - Modify fields such as title, artist, album, year, etc.
+   - Apply changes individually or to all selected files at once.
+4. **Save Changes**: Once done, FLAC-A_MetaEditor will overwrite the existing metadata with your new input.
 
 ---
 
-## 📜 Créditos y Licencia
+## 🎵 Supported Formats
 
-**FLAC-A_MetaEditor** utiliza las siguientes tecnologías de código abierto:
-
-- **[mutagen](https://mutagen.readthedocs.io/en/latest/)** – Biblioteca para leer y escribir metadatos de archivos de audio. (Licencia GPL)
-- **[Tkinter](https://wiki.python.org/moin/TkInter)** – Interfaz gráfica estándar para Python.
-- **[PyInstaller](https://www.pyinstaller.org/)** – Empaquetador de aplicaciones Python. (GPLv2 o posterior)
-- **[Inno Setup](http://www.jrsoftware.org/isinfo.php)** – Generador de instaladores. (Licencia Inno Setup)
-
-Este proyecto está licenciado bajo la **MIT License**. Consulta el archivo [LICENSE](LICENSE.md) para más detalles.
+- Only files with the `.flac` extension are supported.
 
 ---
 
-## 🤝 Contribuciones
+## 📊 System Requirements
 
-¡Las contribuciones son bienvenidas! Para colaborar:
-
-1. **Haz un fork** del repositorio.
-2. **Crea una rama** con tus mejoras o correcciones.
-3. **Envía un pull request** con una descripción clara de los cambios realizados.
-
-¿Tienes sugerencias o encontraste errores? Contáctanos a [negroayub97@gmail.com](mailto:negroayub97@gmail.com).
+- **Operating System**: Windows 10 or higher.
+- **RAM**: Minimum 2GB.
+- **Storage**: Sufficient space to handle selected FLAC files.
 
 ---
 
-**FLAC-A_MetaEditor** es tu aliado para organizar tu colección de música FLAC de forma rápida, organizada y profesional. 🎧
+## 📜 Credits and License
+
+**FLAC-A_MetaEditor** uses the following open-source technologies:
+
+- **[mutagen](https://mutagen.readthedocs.io/en/latest/)** – Library for reading and writing audio file metadata. (GPL License)
+- **[Tkinter](https://wiki.python.org/moin/TkInter)** – Standard GUI library for Python.
+- **[PyInstaller](https://www.pyinstaller.org/)** – Python application bundler. (GPLv2 or later)
+- **[Inno Setup](http://www.jrsoftware.org/isinfo.php)** – Installer creator. (Inno Setup License)
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE.md) file for more details.
 
 ---
 
-¿Quieres que también te prepare un icono, logo o instalador para acompañarlo?
+## 🤝 Contributions
+
+Contributions are welcome! To contribute:
+
+1. **Fork** the repository.
+2. **Create a branch** with your improvements or fixes.
+3. **Submit a pull request** with a clear description of your changes.
+
+Have suggestions or found a bug? Contact us at [negroayub97@gmail.com](mailto:negroayub97@gmail.com).
+
+---
+
+**FLAC-A_MetaEditor** is your go-to tool for organizing your FLAC music collection quickly, neatly, and professionally. 🎧
