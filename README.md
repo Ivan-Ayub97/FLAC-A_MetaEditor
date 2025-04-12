@@ -4,7 +4,7 @@
 
 ### FLAC Album Metadata Editor
 
-**FLAC-A_MetaEditor** is a lightweight and efficient desktop tool for bulk editing metadata in FLAC audio files. Designed with a simple and functional interface, it allows you to manage tags such as title, artist, album, year, and more—all from an intuitive graphical environment.
+A lightweight and efficient desktop tool for bulk editing metadata in FLAC audio files. Designed with a simple and functional interface, it allows you to manage tags such as title, artist, album, year, and more—all from an intuitive graphical environment.
 
 ![FLAC-A_MetaEditor logo](icon.png)
 
