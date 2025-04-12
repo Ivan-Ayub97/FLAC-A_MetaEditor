@@ -1,4 +1,4 @@
-## [Download Here from Google Drive](https://drive.google.com/file/d/1daqhMdH8icWZ7V7IhI1cZvARc_lyhK1p/view?usp=sharing)
+## [Download Here from Google Drive (.exe)](https://drive.google.com/file/d/1daqhMdH8icWZ7V7IhI1cZvARc_lyhK1p/view?usp=sharing)
 
 # FLAC-A Metadata Editor
 
