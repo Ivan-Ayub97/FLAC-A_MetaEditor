@@ -206,26 +206,31 @@ class FlacMetadataEditor(QWidget):
 
                 shutil.copy(file_path, output_path)
                 audio = FLAC(output_path)
-
                 tags = [self.table.item(row, col).text() if self.table.item(row, col) else "" for col in range(1, 10)]
-                keys = ["title", "tracknumber", "album", "composer", "genre", "date", "producer", "album artist", "license"]
+                keys = ["TITLE", "TRACKNUMBER", "ALBUM", "COMPOSER", "GENRE", "DATE", "PRODUCER", "ALBUMARTIST", "LICENSE"]
+
+                # Clear existing tags to avoid duplication
+                audio.delete()
                 for key, value in zip(keys, tags):
                     if value:
                         audio[key] = value
 
+                # Add embedded cover image (front cover)
                 if self.cover_image_path:
-                    img = Image.open(self.cover_image_path)
-                    img.thumbnail((1000, 1000), Image.ANTIALIAS)
+                    image_data = open(self.cover_image_path, 'rb').read()
 
-                    img_bytes = img.tobytes("raw", "RGB")
                     picture = Picture()
-                    picture.data = img_bytes
-                    picture.type = 3  # Cover(front)
-                    picture.mime = "image/png"
+                    picture.data = image_data
+                    picture.type = 3  # front cover
+                    picture.mime = "image/jpeg" if self.cover_image_path.lower().endswith((".jpg", ".jpeg")) else "image/png"
+
+                    img = Image.open(self.cover_image_path)
                     picture.width = img.width
                     picture.height = img.height
-                    picture.depth = 24
+                    picture.depth = 24  # bits-per-pixel
+                    picture.colors = 0
 
+                    # Remove previous pictures and add the new one
                     audio.clear_pictures()
                     audio.add_picture(picture)
 
@@ -234,6 +239,7 @@ class FlacMetadataEditor(QWidget):
 
             except Exception as e:
                 self.log(f"❌ Error exporting {file_path}: {e}\n{traceback.format_exc()}")
+
 
     def log(self, message):
         self.log_box.append(message)
